@@ -18,7 +18,7 @@ namespace aim::q5 {
 
 
 // BEGIN IMPLEMENTATION
-// aim-cpp-cw
+// aim-cpp-cw-known
 std::vector<std::vector<int>> risk(const std::vector<std::string>& grid) {
     if (grid.empty()) return {};
     const int rows = static_cast<int>(grid.size());

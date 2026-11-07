@@ -18,7 +18,7 @@ namespace aim::q4 {
 struct CommandResult { long long value; int accepted; int rejected; };
 
 // BEGIN IMPLEMENTATION
-// aim-cpp-cw
+// aim-cpp-cw-known
 CommandResult execute(const std::vector<std::string>& lines) {
     CommandResult result{0, 0, 0};
     for (const auto& line : lines) {

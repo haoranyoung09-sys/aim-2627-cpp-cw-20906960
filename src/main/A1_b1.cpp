@@ -18,7 +18,7 @@ namespace aim::b1 {
 
 
 // BEGIN IMPLEMENTATION
-// aim-cpp-cw
+// aim-cpp-cw-known
 bool parse_i32(const std::string& text, int& output) {
     if (text.empty()) return false;
     std::size_t pos = 0;

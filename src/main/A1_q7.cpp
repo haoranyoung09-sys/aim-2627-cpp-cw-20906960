@@ -18,7 +18,7 @@ namespace aim::q7 {
 struct FireResult { int shots; int rejected; int ammo; int heat; };
 
 // BEGIN IMPLEMENTATION
-// aim-cpp-cw
+// aim-cpp-cw-known
 FireResult simulate(int ammo, int heat, int cool, int shot_heat, const std::vector<int>& requests) {
     FireResult result{0, 0, ammo, heat};
     for (int request : requests) {

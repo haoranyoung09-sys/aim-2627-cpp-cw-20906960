@@ -18,7 +18,7 @@ namespace aim::b2 {
 
 
 // BEGIN IMPLEMENTATION
-// aim-cpp-cw
+// aim-cpp-cw-known
 std::size_t compact(int* data, std::size_t n, int low, int high) {
     if (low > high) return 0;
     std::size_t count = 0;
